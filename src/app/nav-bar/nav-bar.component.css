@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-right: auto;
+    float: left;
+    padding: 7px;
+  }
+.logo{
+    display: block;
+    width: 25px;
+}
+ul{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 15px;
+}
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.navLinks a{
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.navLinks li {
+    padding: 0px 10px;
+  }
+  
+.navLinks li a {
+transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+color: #0088a9;
+}
+
+.searchIcon{
+    padding-left: 50px;
+}

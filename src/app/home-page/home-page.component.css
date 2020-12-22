@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .mainBody{
     max-width: 2000px;
     margin: 20% auto;
@@ -6,11 +7,43 @@
 }
 .mainBody h1{
     color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    margin: 20px;
+    font-weight: 100;
 }
 .mainBody p{
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
+}
+
+.purpleButton {
+    width: 200px;
+    height: 50px;
+    background-color: #745cf9; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 300;
+    font-size: 12px;
+    margin-right: 10px;
+    border: 2px solid #745cf9; 
+}
+.clearButton {
+    width: 200px;
+    height: 50px;
+    background-color: rgba(76, 175, 80, 0);
+    border: none;
+    color: white;
+    width: 300;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border: 2px solid #ffffff; 
 }

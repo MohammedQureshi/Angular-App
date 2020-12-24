@@ -10,4 +10,5 @@ header {
     align-items: center;
     padding: 10px 20%;
     background-color: white;
+    border-bottom: 2px solid #E5E5E5; 
   }
